@@ -9,7 +9,6 @@ const AuthLayout = () => {
 
   return (
     <>
-      {" "}
       <Landing />
     </>
   );
