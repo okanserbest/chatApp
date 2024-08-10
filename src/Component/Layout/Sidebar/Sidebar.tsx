@@ -1,6 +1,14 @@
+import { useSelector } from "react-redux";
+import { RootState } from "../../../store/store";
+import UserCard from "../../Pages/Dashboard/UserCard";
+import useFirestoreUsers from "../../../hooks/useFirestoreUsers";
+
 const Sidebar = () => {
+  useFirestoreUsers();
+  const userList = useSelector((state: RootState) => state.users.userList);
 
 
+  console.log("userList",userList);
   return (
     <aside
       id="logo-sidebar"
@@ -9,7 +17,11 @@ const Sidebar = () => {
     >
       <div className="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800 mt-14">
         <ul className="space-y-2 font-medium">
-           //TODO Kullanıcı listesi gelecek
+           {userList.map((user) => (
+            <li key={user.id}>
+             <UserCard user={user}/>
+            </li>
+          ))}
         </ul>
       </div>
     </aside>
