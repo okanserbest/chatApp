@@ -1,9 +1,9 @@
 import { useContext, useEffect } from 'react';
 import { collection, onSnapshot } from 'firebase/firestore';
 import { useDispatch } from 'react-redux';
-import { setUserList, User } from '../store/userSlice';
 import { db } from '../Helpers/Firebase';
 import { getAuth } from 'firebase/auth';
+import { setUserList, User } from '../store/userSlice';
 
 const useFirestoreUsers = () => {
     const dispatch = useDispatch();

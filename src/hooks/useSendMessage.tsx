@@ -1,9 +1,9 @@
 import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import { db } from "../Helpers/Firebase";
 import { getAuth } from "firebase/auth";
-import { RootState } from "../store/store";
+import { RootState } from "../Store/store";
 import { useSelector } from "react-redux";
-import { Message } from "../types/message";
+import { Message } from "../Types/message";
 
 const useSendMessage = () => {
   const message = useSelector((state: RootState) => state.message);

@@ -1,4 +1,4 @@
-import useChat from "../../../hooks/useChat";
+import useChat from "../../../Hooks/useChat";
 import { useEffect, useRef, useState } from "react";
 import { Send } from "lucide-react";
 import { format } from "date-fns";

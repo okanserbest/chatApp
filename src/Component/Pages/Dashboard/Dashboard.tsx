@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { RootState } from "../../../store/store";
+import { RootState } from "../../../Store/store";
 import Input from "./Input";
 import Chat from "./Chat";
 

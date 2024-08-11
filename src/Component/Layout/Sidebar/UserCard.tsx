@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
-import { User } from "../../../store/userSlice";
-import { setSelectedMessageId } from "../../../store/messageSlice";
-import { RootState } from "../../../store/store";
+import { User } from "../../../Store/userSlice";
+import { setSelectedMessageId } from "../../../Store/messageSlice";
+import { RootState } from "../../../Store/store";
 
 type UsersProps = {
   user: User;

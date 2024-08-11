@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Send } from "lucide-react";
-import useSendMessage from "../../../hooks/useSendMessage";
+import useSendMessage from "../../../Hooks/useSendMessage";
 
 const Input = () => {
   const { sendMessage } = useSendMessage();

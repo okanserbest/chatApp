@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { useState } from "react";
 import { Menu } from "lucide-react";
-import { RootState } from "../../../store/store";
+import { RootState } from "../../../Store/store";
 import { useSelector } from "react-redux";
 import UserCard from "../Sidebar/UserCard";
 

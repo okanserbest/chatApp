@@ -8,9 +8,9 @@ import {
 } from "firebase/firestore";
 import { db } from "../Helpers/Firebase";
 import { getAuth } from "firebase/auth";
-import { RootState } from "../store/store";
+import { RootState } from "../Store/store";
 import { useSelector } from "react-redux";
-import { Message } from "../types/message";
+import { Message } from "../Types/message";
 
 const useChat = () => {
   const [messages, setMessages] = useState<Message[]>([]);

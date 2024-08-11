@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
-import { RootState } from "../../../store/store";
+import { RootState } from "../../../Store/store";
 import UserCard from "./UserCard";
-import useFirestoreUsers from "../../../hooks/useFirestoreUsers";
+import useFirestoreUsers from "../../../Hooks/useFirestoreUsers";
 
 const Sidebar = () => {
   useFirestoreUsers();
