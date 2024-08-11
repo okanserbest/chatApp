@@ -12,7 +12,7 @@ function DefaultLayout() {
         <>
           <Header />
           <Sidebar />
-          <div className="p-4 sm:ml-64" style={{ marginTop: "120px" }}>
+          <div className="p-0 sm:ml-64" style={{ marginTop: "105px" }}>
             <Outlet />
           </div>
         </>

@@ -7,11 +7,10 @@ import { getAuth } from 'firebase/auth';
 
 const useFirestoreUsers = () => {
     const dispatch = useDispatch();
-    const auth = getAuth();
-    const currentUser = auth.currentUser;
-
-    console.log("currentUser",currentUser);
+    
     useEffect(() => {
+        const auth = getAuth();
+        const currentUser = auth.currentUser;
         const usersCollection = collection(db, 'users');
 
         const unsubscribe = onSnapshot(usersCollection, (snapshot) => {
