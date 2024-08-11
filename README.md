@@ -1,6 +1,8 @@
 
 # Messaging Mobile App - Frontend Developer Case Study
 
+[Live Demo](https://chat-app-ivory-five-18.vercel.app/)
+
 This project is a simple real-time chat component developed as part of a frontend developer case study. The objective was to create a basic messaging app using React.js and Firebase that supports user authentication and real-time message synchronization.
 
 ## Features
