@@ -17,3 +17,10 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%; */
 }
+
+.chats {
+  background: linear-gradient(
+      rgba(226, 226, 226, 0.7),
+      rgba(226, 226, 226, 0.7)
+    )
+}
