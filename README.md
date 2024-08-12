@@ -1,5 +1,5 @@
 
-# Messaging Mobile App - Frontend Developer Case Study
+# Messaging App - Frontend Developer Case Study
 
 [Live Demo](https://chat-app-ivory-five-18.vercel.app/)
 
